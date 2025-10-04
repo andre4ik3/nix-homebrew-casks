@@ -20,7 +20,7 @@
 }:
 
 let
-  inherit (stdenvNoCC.targetPlatform) system;
+  inherit (stdenvNoCC.hostPlatform) system;
 
   src = let
     srcArch = package.files.${system};

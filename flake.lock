@@ -3,11 +3,11 @@
     "data": {
       "flake": false,
       "locked": {
-        "lastModified": 1754992635,
-        "narHash": "sha256-1ERC7AzSlwMapQXOsaiVpsoqA6aag0owFLgLS185xlI=",
+        "lastModified": 1759536111,
+        "narHash": "sha256-gxiBvpJEHQNvW1Rkod+B+3jVmw7/N9wZ+ZxialcXzv0=",
         "owner": "andre4ik3",
         "repo": "nix-homebrew-casks",
-        "rev": "aea2cde908831a5bb93d9216e19efd08e2106c6d",
+        "rev": "da6760f346f999e66fc27cb9cf0823b009871523",
         "type": "github"
       },
       "original": {
@@ -34,18 +34,15 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1754937576,
-        "narHash": "sha256-3sWA5WJybUE16kIMZ3+uxcxKZY/JRR4DFBqLdSLBo7w=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "ddae11e58c0c345bf66efbddbf2192ed0e58f896",
-        "type": "github"
+        "lastModified": 315532800,
+        "narHash": "sha256-t5JKAHEnj0oWdtN6D5/nYODHQGNlcUL7388qky7e7fY=",
+        "rev": "b2f842e4d99dc35a0951b9582c64bb26789e929d",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixpkgs/25.05-darwin/nixpkgs-darwin-25.05pre810690.b2f842e4d99d/nixexprs.tar.xz"
       },
       "original": {
-        "owner": "NixOS",
-        "ref": "release-25.05",
-        "repo": "nixpkgs",
-        "type": "github"
+        "type": "tarball",
+        "url": "https://nixpkgs.flake.andre4ik3.dev/stable/darwin"
       }
     },
     "root": {

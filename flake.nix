@@ -2,7 +2,7 @@
   description = "Access Homebrew casks from Nix";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/release-25.05";
+    nixpkgs.url = "https://nixpkgs.flake.andre4ik3.dev/stable/darwin";
     flake-compat.url = "github:nix-community/flake-compat";
 
     data = {
@@ -20,7 +20,7 @@
 
     overlays = rec {
       homebrew-casks = import ./overlay.nix data;
-      brew2nix = homebrew-casks;
+      brew2nix = lib.warn "brew2nix has been renamed to homebrew-casks" homebrew-casks;
       default = homebrew-casks;
     };
 
