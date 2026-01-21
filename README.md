@@ -23,6 +23,7 @@ nix build github:andre4ik3/nix-homebrew-casks#<APP_NAME> -L
 Non-exhaustive list of verified packages that work (tested personally):
 
 - `arc`
+- `helium-browser`
 - `iterm2`
 - `firefox`
   - Caveat: the CLI wrapper script doesn't work
