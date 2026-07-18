@@ -70,7 +70,7 @@ stdenvNoCC.mkDerivation {
     type="$(file -b "$src")"
     do_fixup=0
     case "$type" in
-      "bzip2 compressed data"* | "XZ compressed data" | "Apple DMG"*)
+      "bzip2 compressed data"* | "XZ compressed data"* | "Apple DMG"*)
         # either it's a tar.bz2 or a dmg...
         if dmg2img -l "$src"; then
           echo "looks like a dmg"
